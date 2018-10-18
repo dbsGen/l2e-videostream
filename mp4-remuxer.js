@@ -49,7 +49,7 @@ class MP4Remuxer extends EventEmitter {
         })
         stream.on('end', ()=>{
             let buf = Buffer.concat(chunks)
-            let readOffset = self.mp4box.appendBuffer(buffer)
+            let readOffset = this.mp4box.appendBuffer(buffer)
             this._loadMeta(readOffset)
         })
     }
