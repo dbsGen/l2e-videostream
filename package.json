@@ -1,5 +1,5 @@
 {
-  "name": "videostream",
+  "name": "l2e-videostream",
   "version": "3.0.0",
   "description": "Streams data from a file-like seekable object into a `video` or `audio` node (a HTMLMediaElement)",
   "main": "videostream.js",
