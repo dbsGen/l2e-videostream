@@ -1,4 +1,5 @@
 const EventEmitter = require('events')
+const bs = require('binary-search')
 const mp4box = require('./mp4box.all')
 const mp4 = require('mp4-stream')
 const stream = require('stream')
