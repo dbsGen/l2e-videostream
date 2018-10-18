@@ -3,3 +3,4 @@ built.js
 example/*.mp4
 
 node_modules
+.idea
