@@ -1,5 +1,5 @@
 const EventEmitter = require('events')
-const mp4box = require('mp4box')
+const mp4box = require('./mp4box.all')
 const stream = require('stream')
 
 class MP4Remuxer extends EventEmitter {
